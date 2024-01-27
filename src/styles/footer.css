@@ -1,0 +1,17 @@
+.footerConteneur{
+    padding: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+
+    img{
+        height: 70px;
+    }
+
+    span{
+        color: white;
+    }
+}

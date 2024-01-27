@@ -1,0 +1,33 @@
+.styleEnsembleTitre{
+    display:flex;
+    flex-direction: column;
+    text-align:left;
+    justify-content: center;
+
+    
+}
+.styleTitre{
+    span{
+       color: #FF6060;
+        font-weight: 500;
+        font-size: 36px; 
+        @media screen and (min-width:300px) and (max-width:620px){
+            font-size:18px;
+        }
+    }
+        
+    
+}
+
+.styleLocation{
+    span{
+        color: #FF6060;
+        font-weight: 500;
+        font-size: 25px;
+        @media screen and (min-width:300px) and (max-width:620px){
+            font-size:14px;
+        }
+    }
+        
+    
+}

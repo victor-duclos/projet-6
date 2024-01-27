@@ -1,0 +1,25 @@
+.ensemble{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    gap:5px;
+
+    img{
+        width: 64px;
+        height: 64px;
+        border-radius: 35px;  
+    }
+}
+
+.cadreText{
+    width: 88px;
+    height: 52px;
+    text-align: right;
+    line-height: 25px;
+
+    span{
+        color: #FF6060;
+font-size: 18px;
+    }
+}

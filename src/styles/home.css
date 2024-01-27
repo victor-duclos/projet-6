@@ -1,0 +1,27 @@
+.styleEnsembleHome{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.styleBlocHome{
+    
+      border-radius: 25px;
+    background-color: #F6F6F6;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+    padding:30px;  
+    
+    @media screen and (min-width:300px) and (max-width:620px){
+        
+    grid-template-columns: 1fr;
+    padding: 0px;
+    background-color: white;
+        
+    }
+
+    
+}
+

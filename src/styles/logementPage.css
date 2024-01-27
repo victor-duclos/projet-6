@@ -1,0 +1,66 @@
+.listStyle{
+    list-style-type:none;
+}
+
+.stylePageLogement{
+    padding-bottom: 20px;
+}
+
+.styleTagLogement{
+    display:flex;
+    gap:10px;
+    width:100%;
+    flex-wrap:wrap;
+}
+
+.styleEnsembleTitreLogement{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 15px;
+
+    @media screen and (min-width:300px) and (max-width:620px){
+        flex-direction: column;
+        gap:10px;
+      
+    }
+}
+
+.stylePartieGauche{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:20px;
+    width:100%;
+}
+
+.stylePartieDroite{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+
+    @media screen and (min-width:300px) and (max-width:620px){
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        flex-wrap:nowrap;
+        
+
+    }
+}
+
+.styleCollapseLogement{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-arround;
+    gap: 80px;
+
+    @media screen and (min-width:300px) and (max-width:620px){
+        display:flex;
+        flex-direction: column;
+        gap:20px;
+    }
+}
