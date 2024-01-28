@@ -7,7 +7,7 @@ import Tag from '../../components/Tags';
 import TitreLogement from '../../components/TitreLogement';
 import Host from '../../components/Host';
 import Rating from '../../components/Rating';
-import styled from 'styled-components'
+//import styled from 'styled-components'
 import '../../styles/logementPage.css'
 
 /*const Page=styled.div`

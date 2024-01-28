@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+//import styled from 'styled-components';
 import '../styles/host.css'
 
 /*const Image=styled.img`

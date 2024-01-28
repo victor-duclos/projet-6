@@ -15,6 +15,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <GlobalStyle />
+      <div className="content-container">
       <Header />
       <Routes>
         
@@ -23,6 +24,7 @@ ReactDOM.render(
         <Route path="/logement/:id" element={<Logement />} />
         <Route path="*" element={<Error />} />
       </Routes>
+      </div>
       <Footer />
     </Router>
     

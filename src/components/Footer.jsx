@@ -1,5 +1,5 @@
 import logo from '../assets/logo-white.png'
-import styled from 'styled-components'
+//import styled from 'styled-components'
 import '../styles/footer.css'
 
 /*const FooterLogo = styled.img`

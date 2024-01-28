@@ -8,7 +8,11 @@ const ErrorWrapper = styled.div`
   flex-direction: column;
   background-color: #FFFFFF;
   align-items: center;
-  gap: 150px;
+  justify-content: space-around;
+  height: 600px;
+  @media screen and (min-width:300px) and (max-width:620px){
+  justify-content: space-around;
+    }
 `
 
 
@@ -16,10 +20,23 @@ const ErrorWrapper = styled.div`
 const ErrorSubtitle = styled.h1`
   font-weight: 300;
   color: #FF6060;
+  font-size: 36px;
+  
+  @media screen and (min-width:300px) and (max-width:620px){
+  font-size: 18px;
+  padding-left: 30px;
+    }
 `
 
 const Illustration = styled.img`
   max-width: 800px;
+
+  @media screen and (min-width:300px) and (max-width:620px){
+        
+    width: 198px;
+    height: 99px;
+        
+    }
 `
 
 function Error() {

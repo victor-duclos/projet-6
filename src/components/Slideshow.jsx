@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import vectorLeft from '../assets/vector-left.png';
 import vectorRight from '../assets/vector-right.png';
-import styled from 'styled-components';
+//import styled from 'styled-components';
 import '../styles/slideshow.css'
 
 /*const StyleBoutonLeft= styled.img`

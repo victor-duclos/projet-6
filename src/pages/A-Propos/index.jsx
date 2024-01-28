@@ -1,6 +1,6 @@
 import Banner from 'C:/Users/victor/Desktop/web/kasa/src/components/Banner.jsx';
 import Collapse from 'C:/Users/victor/Desktop/web/kasa/src/components/Collapse.jsx'
-import styled from 'styled-components';
+//import styled from 'styled-components';
 import '../../styles/propos.css';
 
  const proposList = [
@@ -18,12 +18,12 @@ import '../../styles/propos.css';
     "description" : "La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes."},
  ]
 
-const StylePropos = styled.div`
+/*const StylePropos = styled.div`
 display: flex;
 flex-direction: column;
 gap: 20px;
 margin: 35px;
-`
+`*/
 
 function Apropos() {
     return (

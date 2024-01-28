@@ -8,12 +8,15 @@ const StyledGlobalStyle = createGlobalStyle`
     }
 
     body {
-    
-      max-width: 1440px;
-      
-      margin:auto;
-        padding-left:45px;
-        padding-right: 45px;
+        margin:0;
+
+        .content-container {
+          max-width: 1440px;
+          margin: auto;
+          padding-left: 45px;
+          padding-right: 45px;
+
+
         @media screen and (min-width:300px) and (max-width:620px){
           padding-left:20px;
         padding-right: 20px

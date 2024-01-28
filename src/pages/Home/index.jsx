@@ -1,5 +1,5 @@
 //import home from './home.png'
-import styled from 'styled-components'
+//import styled from 'styled-components'
 import Card from 'C:/Users/victor/Desktop/web/kasa/src/components/Card.jsx'
 import { Datas } from 'C:/Users/victor/Desktop/web/kasa/src/Data/Datas.jsx'
 import Banner from 'C:/Users/victor/Desktop/web/kasa/src/components/Banner.jsx'

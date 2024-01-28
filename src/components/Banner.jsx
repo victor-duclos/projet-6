@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import styled from 'styled-components';
+//import styled from 'styled-components';
 import Home from 'C:/Users/victor/Desktop/web/kasa/src/assets/Home.png';
 import Apropos from 'C:/Users/victor/Desktop/web/kasa/src/assets/A-propos.png';
 import '../styles/banner.css'
