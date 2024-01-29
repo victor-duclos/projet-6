@@ -9,8 +9,25 @@
     padding: 10px;
     color: #FF6060;
     border-radius: 10px;
+    animation-timing-function: ease-out;
+    animation-duration: 300ms;
     
-    
+  }
+
+  .collapseContent.open {
+    display: block;
+    animation: expandAnimation 300ms ease-out;
+  }
+  
+  @keyframes expandAnimation {
+    from {
+      height: 0;
+      opacity: 0;
+    }
+    to {
+      height: auto;
+      opacity: 1;
+    }
   }
   
   .collapseTitle {

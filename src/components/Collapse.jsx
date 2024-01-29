@@ -51,7 +51,7 @@ const CollapseComponent = ({titre , description}) => {
       </div>
 
       {!isCollapsed && (
-        <div className="collapseContent">
+        <div className={`collapseContent ${!isCollapsed ? 'open' : ''}`}>
           {description}
         </div>
       )}
