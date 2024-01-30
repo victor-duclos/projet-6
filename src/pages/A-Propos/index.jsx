@@ -1,7 +1,7 @@
 import Banner from 'C:/Users/victor/Desktop/web/kasa/src/components/Banner.jsx';
 import Collapse from 'C:/Users/victor/Desktop/web/kasa/src/components/Collapse.jsx'
 //import styled from 'styled-components';
-import '../../styles/propos.css';
+import '../../styles/propos.scss';
 
  const proposList = [
   {"id":1,

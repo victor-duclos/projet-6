@@ -1,5 +1,5 @@
 //import styled from 'styled-components';
-import '../styles/host.css'
+import '../styles/host.scss'
 
 /*const Image=styled.img`
 width: 64px;

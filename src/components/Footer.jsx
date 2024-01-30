@@ -1,6 +1,6 @@
 import logo from '../assets/logo-white.png'
 //import styled from 'styled-components'
-import '../styles/footer.css'
+import '../styles/footer.scss'
 
 /*const FooterLogo = styled.img`
   height: 70px;

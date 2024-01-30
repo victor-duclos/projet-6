@@ -1,5 +1,5 @@
 //import styled from 'styled-components'
-import '../styles/titreLogement.css'
+import '../styles/titreLogement.scss'
 
 /*const StyleTitre= styled.span`
 color: #FF6060;

@@ -1,7 +1,7 @@
 //import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
-import '../styles/card.css'
+import '../styles/card.scss'
 
 /*const Carte= styled.div`
 position: relative;

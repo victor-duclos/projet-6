@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { StyledLink } from '../styles/HeaderStyle'
 import logo from '../assets/logo.png'
 //import styled from 'styled-components'
-import '../styles/header.css'
+import '../styles/header.scss'
 /*const HomeLogo = styled.img`
   height: 70px;
 `

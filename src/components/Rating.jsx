@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 //import styled from 'styled-components';
 import star from '../assets/star.png';
 import starInactive from '../assets/star-inactive.png';
-import '../styles/rating.css'
+import '../styles/rating.scss'
 
 
 

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import vectorLeft from '../assets/vector-left.png';
 import vectorRight from '../assets/vector-right.png';
 //import styled from 'styled-components';
-import '../styles/slideshow.css'
+import '../styles/slideshow.scss'
 
 /*const StyleBoutonLeft= styled.img`
 max-width: 47px;

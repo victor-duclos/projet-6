@@ -3,7 +3,7 @@
 import Card from 'C:/Users/victor/Desktop/web/kasa/src/components/Card.jsx'
 import { Datas } from 'C:/Users/victor/Desktop/web/kasa/src/Data/Datas.jsx'
 import Banner from 'C:/Users/victor/Desktop/web/kasa/src/components/Banner.jsx'
-import '../../styles/home.css';
+import '../../styles/home.scss';
 
 
 /*const Banner = styled.div`

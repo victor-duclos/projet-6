@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 //import styled from 'styled-components';
 import vector from '../assets/vector-haut.png';
-import '../styles/collapse.css'
+import '../styles/collapse.scss'
 
 /*const Bouton= styled.div`
 background-color:#FF6060;

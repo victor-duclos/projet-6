@@ -1,6 +1,6 @@
 //import styled from 'styled-components'
 //import PropTypes from 'prop-types'
-import '../styles/tags.css';
+import '../styles/tags.scss';
 /*const StyleTag= styled.span`
 
 color: white;

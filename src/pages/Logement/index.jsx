@@ -8,7 +8,7 @@ import TitreLogement from '../../components/TitreLogement';
 import Host from '../../components/Host';
 import Rating from '../../components/Rating';
 //import styled from 'styled-components'
-import '../../styles/logementPage.css'
+import '../../styles/logementPage.scss'
 
 /*const Page=styled.div`
 padding-bottom: 20px;
