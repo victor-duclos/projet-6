@@ -1,8 +1,8 @@
 //import home from './home.png'
 //import styled from 'styled-components'
-import Card from 'C:/Users/victor/Desktop/web/kasa/src/components/Card.jsx'
-import { Datas } from 'C:/Users/victor/Desktop/web/kasa/src/Data/Datas.jsx'
-import Banner from 'C:/Users/victor/Desktop/web/kasa/src/components/Banner.jsx'
+import Card from '../../components/Card'
+import { Datas } from '../../Data/Datas'
+import Banner from '../../components/Banner'
 import '../../styles/home.scss';
 
 

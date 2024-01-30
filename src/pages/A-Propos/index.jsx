@@ -1,5 +1,5 @@
-import Banner from 'C:/Users/victor/Desktop/web/kasa/src/components/Banner.jsx';
-import Collapse from 'C:/Users/victor/Desktop/web/kasa/src/components/Collapse.jsx'
+import Banner from '../../components/Banner';
+import Collapse from '../../components/Collapse'
 //import styled from 'styled-components';
 import '../../styles/propos.scss';
 
