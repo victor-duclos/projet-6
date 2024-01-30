@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 //import styled from 'styled-components';
-import Home from 'C:/Users/victor/Desktop/web/kasa/src/assets/Home.png';
-import Apropos from 'C:/Users/victor/Desktop/web/kasa/src/assets/A-propos.png';
+import Home from '../assets/Home.png';
+import Apropos from '../assets/A-propos.png';
 import '../styles/banner.scss'
 
 /*const Banniere = styled.div`
@@ -47,29 +47,21 @@ const Banner = ({showText}) => {
   const [bannerImage, setBannerImage] = useState('');
 
   useEffect(() => {
-    // Logique pour déterminer quelle image utiliser en fonction de l'URL
     const newBannerImage = determineBannerImage(location.pathname);
 
-    // Mettre à jour l'état avec la nouvelle image
     setBannerImage(newBannerImage);
-  }, [location.pathname]); // Effect sera relancé lorsqu'il y a un changement dans location.pathname
-
+  }, [location.pathname]);
   return (
             <div className="banniere">
               <img src={bannerImage} alt="banniere"/>
               {showText && <span>Chez vous, partout et ailleurs</span>}
-            </div>
-            
+            </div>            
   );
 };
-
-// Fonction pour déterminer quelle image utiliser en fonction de l'URL
 const determineBannerImage = (pathname) => {
-  // Logique pour associer les différentes pages avec des images spécifiques
   if (pathname === '/a-propos') {
     return Apropos;
   }  else {
-    // Image par défaut pour d'autres pages
     return Home;
   }
 };
